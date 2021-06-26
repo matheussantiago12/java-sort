@@ -1,8 +1,4 @@
-package sample;
-
-
 public class QuickSort {
-
     public static int[] ordenar(int[] vetor) {
         if (vetor == null || vetor.length == 0) {
             return null;

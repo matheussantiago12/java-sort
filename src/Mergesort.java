@@ -1,7 +1,4 @@
-package sample;
-
 public class Mergesort {
-
     public static int[] ordenar(int[] vetor) {
         merge(vetor, 0, vetor.length - 1);
         return vetor;
